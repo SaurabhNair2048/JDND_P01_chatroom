@@ -1,0 +1,6 @@
+spring:
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates
+    #Had faced issues while launching the app after making a jar. A google search helped resolve it.
+    #Added the prefix to help resolve the error with using thymeleaf for the templates
